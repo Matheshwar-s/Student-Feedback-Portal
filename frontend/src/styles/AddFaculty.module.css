@@ -1,0 +1,87 @@
+.container {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #34495e;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px #d1d8e0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #5d6d7e;
+}
+
+.input {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1.8px solid #ced6e0;
+  font-size: 16px;
+  outline-color: #667eea;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.5);
+}
+
+.button {
+  padding: 14px;
+  background: #667eea;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(102, 126, 234, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4b60d6;
+  box-shadow: 0 8px 16px rgba(75, 96, 214, 0.6);
+}
+
+.errorMessage {
+  margin-top: 20px;
+  padding: 12px;
+  color: #e74c3c;
+  font-weight: 600;
+  background-color: #fdecea;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: inset 0 0 8px #f5c6cb;
+}
+
+.successMessage {
+  margin-top: 20px;
+  padding: 12px;
+  color: #27ae60;
+  font-weight: 600;
+  background-color: #e9f7ef;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: inset 0 0 8px #2ecc71;
+}

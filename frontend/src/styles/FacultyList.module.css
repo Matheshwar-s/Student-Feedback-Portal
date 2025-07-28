@@ -1,0 +1,124 @@
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #34495e;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  text-shadow: 1px 1px 3px #d1d8e0;
+}
+
+.searchInput {
+  display: block;
+  width: 350px;
+  margin: 0 auto 25px auto;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ced6e0;
+  border-radius: 10px;
+  outline-color: #667eea;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.06);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.searchInput:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.5);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 17px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.table th {
+  background-color: #667eea;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.evenRow {
+  background-color: #f9fbff;
+}
+
+.oddRow {
+  background-color: #ffffff;
+}
+
+.table tr:hover {
+  background-color: #d6e0ff;
+  transition: background-color 0.25s ease;
+}
+
+.noData {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+  padding: 25px 0;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pageButton {
+  margin: 0 6px;
+  padding: 8px 14px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.pageButton:hover {
+  background-color: #a3b1ff;
+  color: white;
+}
+
+.activePage {
+  background-color: #4caf50;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 6px 14px rgba(76, 175, 80, 0.5);
+  cursor: default;
+}
+.deleteBtn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: #c82333;
+}

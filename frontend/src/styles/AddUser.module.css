@@ -1,0 +1,102 @@
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(118, 75, 162, 0.3);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.input,
+.select {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+.input::placeholder {
+  color: #ddd;
+  font-style: italic;
+}
+
+.input:focus,
+.select:focus {
+  box-shadow: 0 0 10px #ffd700;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.select {
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, white 50%),
+    linear-gradient(135deg, white 50%, transparent 50%),
+    linear-gradient(to right, #764ba2, #667eea);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    100% 0;
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+  background-repeat: no-repeat;
+}
+
+.button {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #764ba2;
+  background-color: #ffd700;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(255, 215, 0, 0.6);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #ffca28;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 20px rgba(255, 202, 40, 0.8);
+}
+
+.message {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffe066;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
